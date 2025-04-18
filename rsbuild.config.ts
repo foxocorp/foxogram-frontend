@@ -29,10 +29,7 @@ export default {
             "@hooks": "./src/hooks/",
             "@services": "./src/services/",
             "@utils": "./src/utils/",
-<<<<<<< HEAD
             "@store/chat": "store/chat/index.ts",
-=======
->>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
             "@store": "./src/store/",
             "@interfaces": "./src/interfaces/",
         },
