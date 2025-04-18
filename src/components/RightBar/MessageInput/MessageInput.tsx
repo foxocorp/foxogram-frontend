@@ -2,9 +2,15 @@ import { useState, useEffect, useRef } from "preact/hooks";
 import styles from "./MessageInput.module.css";
 import mediaIcon from "@icons/chat/media.svg";
 import sendIcon from "@icons/chat/paperplane.svg";
+<<<<<<< HEAD
 import { MessageInputProps } from "@interfaces/interfaces.ts";
 import { chatStore } from "@store/chat/chatStore.ts";
 import { Logger } from "@utils/logger.ts";
+=======
+import { MessageInputProps } from "@interfaces/interfaces";
+import { chatStore } from "@store/chatStore";
+import { Logger } from "@utils/logger";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 import React from "react";
 
 const MessageInput = ({ }: MessageInputProps) => {
@@ -99,4 +105,8 @@ const MessageInput = ({ }: MessageInputProps) => {
     );
 };
 
+<<<<<<< HEAD
 export default MessageInput;
+=======
+export default MessageInput;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

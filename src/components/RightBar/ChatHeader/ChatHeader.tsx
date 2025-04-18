@@ -1,6 +1,11 @@
 import { useEffect, useState } from "preact/hooks";
+<<<<<<< HEAD
 import { ChatHeaderProps } from "@interfaces/interfaces.ts";
 import { apiMethods } from "@services/API/apiMethods.ts";
+=======
+import { ChatHeaderProps } from "@interfaces/interfaces";
+import { apiMethods } from "@services/API/apiMethods";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 import styles from "./ChatHeader.module.css";
 
 interface Props extends ChatHeaderProps {

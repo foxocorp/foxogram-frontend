@@ -1,10 +1,19 @@
 import { useState, useEffect } from "preact/hooks";
+<<<<<<< HEAD
 import { apiMethods } from "@services/API/apiMethods.ts";
 import styles from "./UserInfo.module.css";
 import settingsIcon from "@icons/navigation/settings.svg";
 import accountSwitchIcon from "@icons/navigation/account-switch.svg";
 import { UserInfoProps } from "@interfaces/interfaces.ts";
 import { chatStore } from "@store/chat/chatStore.ts";
+=======
+import { apiMethods } from "@services/API/apiMethods";
+import styles from "./UserInfo.module.css";
+import settingsIcon from "@icons/navigation/settings.svg";
+import accountSwitchIcon from "@icons/navigation/account-switch.svg";
+import { UserInfoProps } from "@interfaces/interfaces";
+import { chatStore } from "@store/chatStore";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 const UserInfo = ({ username, avatar, status }: UserInfoProps) => {
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -69,4 +78,8 @@ const UserInfo = ({ username, avatar, status }: UserInfoProps) => {
     );
 };
 
+<<<<<<< HEAD
 export default UserInfo;
+=======
+export default UserInfo;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

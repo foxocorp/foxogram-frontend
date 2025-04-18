@@ -103,8 +103,13 @@ const Register = () => {
                 setIsErrorModalOpen(true);
             }
         } catch (error) {
+<<<<<<< HEAD
             Logger.error(error instanceof Error ? error.message : "An unknown error occurred");
             setModalMessage(error.message);
+=======
+            Logger.error(error instanceof Error ? error.exception.message : "An unknown error occurred");
+            setModalMessage(error.exception.message);
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
             setIsErrorModalOpen(true);
         }
     };

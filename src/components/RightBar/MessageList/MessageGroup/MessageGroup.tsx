@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import MessageItem from "@components/RightBar/MessageList/MessageGroup/MessageItem/MessageItem.tsx";
 import styles from "./MessageGroup.module.css";
 import { MessageGroupProps } from "@interfaces/interfaces.ts";
 import { chatStore } from "@store/chat/chatStore.ts";
+=======
+import MessageItem from "@components/RightBar/MessageList/MessageGroup/MessageItem/MessageItem";
+import styles from "./MessageGroup.module.css";
+import { MessageGroupProps } from "@interfaces/interfaces";
+import { chatStore } from "@store/chatStore";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 const MessageGroup = ({ messages, currentUserId }: MessageGroupProps) => {
     if (messages.length === 0) return null;
@@ -29,4 +36,8 @@ const MessageGroup = ({ messages, currentUserId }: MessageGroupProps) => {
     );
 };
 
+<<<<<<< HEAD
 export default MessageGroup;
+=======
+export default MessageGroup;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

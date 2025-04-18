@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import MessageGroup from "@components/RightBar/MessageList/MessageGroup/MessageGroup.tsx";
 import styles from "./MessageList.module.css";
 import { Message, MessageListProps } from "@interfaces/interfaces.ts";
+=======
+import MessageGroup from "@components/RightBar/MessageList/MessageGroup/MessageGroup";
+import styles from "./MessageList.module.css";
+import { Message, MessageListProps } from "@interfaces/interfaces";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 import { useEffect, useMemo, useRef } from "preact/hooks";
 import moment from "moment";
 
@@ -95,4 +101,8 @@ function createGroup(messages: Message[], date: string) {
     };
 }
 
+<<<<<<< HEAD
 export default MessageList;
+=======
+export default MessageList;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

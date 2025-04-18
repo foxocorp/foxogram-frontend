@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "preact/hooks";
 import { observer } from "mobx-react";
+<<<<<<< HEAD
 import MessageList from "./MessageList/MessageList.tsx";
 import MessageInput from "./MessageInput/MessageInput.tsx";
 import ChatHeader from "./ChatHeader/ChatHeader.tsx";
@@ -7,6 +8,15 @@ import styles from "./ChatWindow.module.css";
 import { chatStore } from "@store/chat/chatStore.ts";
 import { ChatWindowProps } from "@interfaces/interfaces.ts";
 import { useThrottle } from "@hooks/useThrottle.ts";
+=======
+import MessageList from "./MessageList/MessageList";
+import MessageInput from "./MessageInput/MessageInput";
+import ChatHeader from "./ChatHeader/ChatHeader";
+import styles from "./ChatWindow.module.css";
+import { chatStore } from "@store/chatStore";
+import { ChatWindowProps } from "@interfaces/interfaces";
+import { useThrottle } from "@hooks/useThrottle";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 interface Props extends ChatWindowProps {
     isMobile: boolean;
@@ -67,4 +77,8 @@ const ChatWindow = observer(({ channel, isMobile, onBack }: Props) => {
     );
 });
 
+<<<<<<< HEAD
 export default ChatWindow;
+=======
+export default ChatWindow;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

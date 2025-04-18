@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { Button } from "@components/Base/Buttons/Button.tsx";
+=======
+import { Button } from "@components/Base/Buttons/Button";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 import { usePasswordReset } from "./PasswordReset";
 import styles from "./PasswordResetModal.module.css";
 import TimerIcon from "@icons/timer.svg";

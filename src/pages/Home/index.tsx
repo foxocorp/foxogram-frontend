@@ -8,10 +8,14 @@ import ChatWindow from "@components/RightBar/ChatWindow";
 import EmptyState from "@components/RightBar/EmptyState/EmptyState";
 import { apiMethods } from "@services/API/apiMethods";
 import { getAuthToken } from "@services/API/apiMethods";
+<<<<<<< HEAD
 
 import chatStore from "@store/chat";
 import { initializeWebSocket } from "@store/chat/websocketService";
 
+=======
+import { chatStore } from "@store/chatStore";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 import { Channel } from "@interfaces/interfaces";
 import { Logger } from "@utils/logger";
 import { initWebSocket } from "../../gateway/initWebSocket";
@@ -20,13 +24,21 @@ export const Home = observer(() => {
 	const location = useLocation();
 	const token = getAuthToken();
 	const [initialLoadDone, setInitialLoadDone] = useState(false);
+<<<<<<< HEAD
 	const wsClientRef = useRef<ReturnType<typeof initializeWebSocket> | null>(null);
+=======
+	const wsClientRef = useRef<ReturnType<typeof initWebSocket> | null>(null);
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 	const isMounted = useRef(true);
 	const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 	const [mobileView, setMobileView] = useState<"list" | "chat">("list");
 	const [chatTransition, setChatTransition] = useState("");
 	const { channels: chats, currentUserId, currentChannelId, isLoading } = chatStore;
+<<<<<<< HEAD
 	const selectedChat = chats.find((c: { id: number; }) => c.id === currentChannelId) ?? null;
+=======
+	const selectedChat = chats.find((c) => c.id === currentChannelId) ?? null;
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 	useEffect(() => {
 		const handleResize = () => {

@@ -1,7 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "preact/hooks";
+<<<<<<< HEAD
 import { Button } from "@components/Base/Buttons/Button.tsx";
 import { useEmailVerification } from "./EmailConfirmation.ts";
+=======
+import { Button } from "@components/Base/Buttons/Button";
+import { useEmailVerification } from "./EmailConfirmation";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 import styles from "./EmailConfirmationModal.module.css";
 import TimerIcon from "@icons/timer.svg";
@@ -119,4 +124,8 @@ export const EmailConfirmationModal = ({
             </div>
         </div>
     );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

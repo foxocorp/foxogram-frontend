@@ -14,4 +14,8 @@ export const initWebSocket = (
             onUnauthorized?.();
         }}, onUnauthorized,
     );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9

@@ -1,9 +1,16 @@
 import { useState, useEffect, useMemo } from "react";
 import styles from "./ChatItem.module.css";
+<<<<<<< HEAD
 import { replaceEmojis } from "@utils/emoji.ts";
 import { observer } from "mobx-react";
 import { ChannelType } from "@foxogram/api-types";
 import { ChatItemProps } from "@interfaces/interfaces.ts";
+=======
+import { replaceEmojis } from "@utils/emoji";
+import { observer } from "mobx-react";
+import { ChannelType } from "@foxogram/api-types";
+import { ChatItemProps } from "@interfaces/interfaces";
+>>>>>>> eec53638717d97f0b9ec2a017f2129589cdcd0e9
 
 const ChatItem = observer(({ chat, onSelectChat, currentUser, isActive }: ChatItemProps) => {
     const [emojiReplacedName, setEmojiReplacedName] = useState<string>("");
