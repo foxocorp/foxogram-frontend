@@ -1,0 +1,47 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    color: var(--primary-color);
+    border-radius: 8px;
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.user-details {
+    flex-grow: 1;
+}
+
+.username {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.status {
+    font-size: 14px;
+    color: var(--branded-color);
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.action-icon {
+    width: 31px;
+    height: 31px;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.action-icon:hover {
+    opacity: 0.7;
+}

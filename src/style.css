@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	color: var(--primary-color);
+	background-color: #000000;
+
+	--background-chat-color: #141414;
+	--background-chat-list-color: #1e1e1e;
+	--background-chat-input: #1a1a1a;
+
+	--primary-color: #ececec;
+	--branded-color: #4a89ff;
+	--secondary-color: rgb(14 14 14 / 0.25);
+	--danger-color: #f24747;
+
+	--error-dark: #a53f3f;
+	--error-input-dark: rgb(165 63 63 / 0.5);;
+
+	--gray-color: rgb(236 236 236 / 0.5);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: rgb(0 0 0 / 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(236 236 236 / 0.5);
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(236 236 236 / 0.8);
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(0 0 0 / 0.2);
+	border-radius: 3px;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+:where(ul, ol):where([class]) {
+	padding-left: 0;
+}
+
+:where(blockquote, figure):where([class]) {
+	margin: 0;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl):where([class]) {
+	margin-block: 0;
+}
+
+img,
+video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+	font: inherit;
+}
+
+html,
+:has(:target) {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100%;
+	line-height: 1.5;
+}
+
+button {
+	cursor: pointer;
+}
+
+li {
+	list-style-position: inside;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	::before,
+	::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

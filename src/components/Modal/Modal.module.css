@@ -1,0 +1,65 @@
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	backdrop-filter: blur(15px);
+	background: rgb(0 0 0 / 0.02);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
+.overlay.visible {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modal {
+	background: rgb(8 8 8 / 0.8);
+	border: 1.5px solid rgb(96 96 96 / 0.5);
+	backdrop-filter: blur(40px);
+	border-radius: 5px;
+	padding: 30px 35px;
+	max-width: 376px;
+	animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.title {
+	font-weight: 800;
+	font-size: 30px;
+	color: #ececec;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.description {
+	font-weight: 100;
+	font-size: 15px;
+	color: rgb(236 236 236 / 0.5);
+	text-align: left;
+	margin-bottom: 30px;
+	white-space: pre-wrap;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}

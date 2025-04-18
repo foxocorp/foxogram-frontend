@@ -1,0 +1,44 @@
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: var(--background-chat-color) url("../../assets/svg/background-chat.svg") no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+.scroll-button {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 120px;
+    right: 20px;
+    background-color: rgb(37 37 37 / 0.6);
+    color: var(--primary-color);
+    padding: 12px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.3);
+}
+
+.scroll-button:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.4);
+}
+
+.scroll-button:active {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.3);
+}
+
+.scroll-button:hover {
+    opacity: 1;
+}

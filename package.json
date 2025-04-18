@@ -1,0 +1,50 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "rsbuild dev",
+		"build": "rsbuild build",
+		"preview": "rsbuild preview",
+		"tauri": "tauri",
+		"dev-desktop": "tauri dev",
+		"build-desktop": "tauri build",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"@fontsource/inter": "^5.1.0",
+		"@foxogram/api": "^0.1.5",
+		"@foxogram/api-types": "^0.1.7",
+		"@foxogram/gateway-types": "^0.1.2",
+		"@foxogram/rest": "^0.1.3",
+		"foxomoji": "^1.0.1",
+		"mobx": "^6.13.5",
+		"mobx-react": "^9.2.0",
+		"moment": "^2.30.1",
+		"preact": "^10.22.1",
+		"preact-iso": "^2.8.1",
+		"react-markdown": "^9.0.3",
+		"rehype-highlight": "^7.0.1",
+		"styled-components": "^6.1.13"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.17.0",
+		"@preact/preset-vite": "^2.9.3",
+		"@rsbuild/core": "^1.3.5",
+		"@rsbuild/plugin-preact": "^1.3.1",
+		"@rsbuild/plugin-typed-css-modules": "^1.0.2",
+		"@tauri-apps/cli": "^2.1.0",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/ws": "^8.5.13",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.17.0",
+		"eslint-plugin-react": "^7.37.3",
+		"globals": "^15.14.0",
+		"postcss": "^8.5.1",
+		"sass": "^1.83.4",
+		"typescript": "^5.7.2",
+		"typescript-eslint": "^8.19.0"
+	},
+	"browserslist": [
+		"last 4 versions"
+	]
+}

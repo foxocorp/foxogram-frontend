@@ -1,0 +1,83 @@
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+    border-radius: 10px;
+}
+
+.chat-item:hover {
+    background-color: rgb(0 0 0 / 0.1);
+    transform: scale(0.98);
+}
+
+.active-chat {
+    background-color: rgb(182 182 182 / 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.chat-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-info {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.chat-message {
+    color: rgb(236 236 236 / 0.5);
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    max-width: 100%;
+}
+
+.you-text {
+    color: rgb(236 236 236 / 75%);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.message-text {
+    color: rgb(236 236 236 / 0.5);
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.chat-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.default-avatar {
+    background: linear-gradient(225deg, #eea7a7 0%, #cd5555 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,11 @@
+.message-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.message-group-header {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 4px;
+}

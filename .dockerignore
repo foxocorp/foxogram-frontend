@@ -1,0 +1,23 @@
+# Preact dev/build outputs
+dist
+
+# Node dependencies
+node_modules
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose-*.yml
+
+# Tauri
+src-tauri
+
+# Editors
+.idea
+.vscode
+
+# Git
+.github
+.gitignore
+README.md
+LICENSE

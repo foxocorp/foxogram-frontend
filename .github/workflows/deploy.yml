@@ -1,0 +1,18 @@
+name: Deploy Frontend
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: cloud
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Foxogram Frontend
+        run: docker compose up foxogram-frontend-dev -d --build

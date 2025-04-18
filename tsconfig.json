@@ -1,0 +1,52 @@
+{
+	"extends": [
+		"@tsconfig/strictest/tsconfig.json"
+	],
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"isolatedModules": true,
+		"moduleResolution": "bundler",
+		"types": [
+			"@rsbuild/core/types"
+		],
+		/* Preact Config */
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"paths": {
+			"react": [
+				"./node_modules/preact/compat/"
+			],
+			"react-dom": [
+				"./node_modules/preact/compat/"
+			],
+			"@components/*": [
+				"./src/components/*"
+			],
+			"@icons/*": [
+				"./src/assets/svg/*"
+			],
+			"@hooks/*": [
+				"./src/hooks/*"
+			],
+			"@utils/*": [
+				"./src/utils/*"
+			],
+			"@services/*": [
+				"./src/services/*"
+			],
+			"@store/chat": [
+				"./src/store/chat/index.ts"
+			],
+			"@store/*": [
+				"./src/store/*"
+			],
+			"@interfaces/*": [
+				"./src/interfaces/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*"
+	]
+}
