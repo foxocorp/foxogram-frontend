@@ -61,17 +61,17 @@ importers:
         specifier: ^9.26.0
         version: 9.26.0
       '@rsbuild/core':
-        specifier: ^1.3.17
-        version: 1.3.17
+        specifier: ^1.3.18
+        version: 1.3.18
       '@rsbuild/plugin-preact':
         specifier: ^1.3.1
-        version: 1.3.1(@rsbuild/core@1.3.17)(preact@10.26.6)
+        version: 1.3.1(@rsbuild/core@1.3.18)(preact@10.26.6)
       '@rsbuild/plugin-sass':
         specifier: ^1.3.1
-        version: 1.3.1(@rsbuild/core@1.3.17)
+        version: 1.3.1(@rsbuild/core@1.3.18)
       '@rsbuild/plugin-typed-css-modules':
         specifier: ^1.0.2
-        version: 1.0.2(@rsbuild/core@1.3.17)
+        version: 1.0.2(@rsbuild/core@1.3.18)
       '@tauri-apps/cli':
         specifier: ^2.5.0
         version: 2.5.0
@@ -561,8 +561,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.3.17':
-    resolution: {integrity: sha512-vDRUjPws7vUcdn2uXOSOknGRF9Jt0wQRH6AU0G7O0GsX8liUmE/I7+EpYvhuQIRp2ekOz1cmmSTrRntEjp7WoQ==}
+  '@rsbuild/core@1.3.18':
+    resolution: {integrity: sha512-ocnz3pVapMTeuoP3zZ1shYcxnAQtRf6RzLl8n7acNi8Hu+ku6SiDGR65foclwcubWF6e9nZPohH94rXnmEVfrw==}
     engines: {node: '>=16.10.0'}
     hasBin: true
 
@@ -2841,7 +2841,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.2':
     optional: true
 
-  '@rsbuild/core@1.3.17':
+  '@rsbuild/core@1.3.18':
     dependencies:
       '@rspack/core': 1.3.9(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
@@ -2849,28 +2849,28 @@ snapshots:
       core-js: 3.42.0
       jiti: 2.4.2
 
-  '@rsbuild/plugin-preact@1.3.1(@rsbuild/core@1.3.17)(preact@10.26.6)':
+  '@rsbuild/plugin-preact@1.3.1(@rsbuild/core@1.3.18)(preact@10.26.6)':
     dependencies:
       '@prefresh/core': 1.5.3(preact@10.26.6)
       '@prefresh/utils': 1.2.0
-      '@rsbuild/core': 1.3.17
+      '@rsbuild/core': 1.3.18
       '@rspack/plugin-preact-refresh': 1.1.2(@prefresh/core@1.5.3(preact@10.26.6))(@prefresh/utils@1.2.0)
       '@swc/plugin-prefresh': 6.3.2
     transitivePeerDependencies:
       - preact
 
-  '@rsbuild/plugin-sass@1.3.1(@rsbuild/core@1.3.17)':
+  '@rsbuild/plugin-sass@1.3.1(@rsbuild/core@1.3.18)':
     dependencies:
-      '@rsbuild/core': 1.3.17
+      '@rsbuild/core': 1.3.18
       deepmerge: 4.3.1
       loader-utils: 2.0.4
       postcss: 8.5.3
       reduce-configs: 1.1.0
       sass-embedded: 1.87.0
 
-  '@rsbuild/plugin-typed-css-modules@1.0.2(@rsbuild/core@1.3.17)':
+  '@rsbuild/plugin-typed-css-modules@1.0.2(@rsbuild/core@1.3.18)':
     optionalDependencies:
-      '@rsbuild/core': 1.3.17
+      '@rsbuild/core': 1.3.18
 
   '@rspack/binding-darwin-arm64@1.3.9':
     optional: true
