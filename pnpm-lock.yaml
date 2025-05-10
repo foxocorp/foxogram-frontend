@@ -30,8 +30,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       foxogram.js:
-        specifier: ^0.1.2
-        version: 0.1.2
+        specifier: ^0.1.3
+        version: 0.1.3
       foxomoji:
         specifier: ^1.0.1
         version: 1.0.1(@types/node@22.15.17)(eslint@9.26.0(jiti@2.4.2))(jiti@2.4.2)(sass-embedded@1.87.0)(sass@1.87.0)(typescript@5.8.3)
@@ -305,17 +305,26 @@ packages:
   '@foxogram/api-types@0.1.14':
     resolution: {integrity: sha512-GAW6QlC0dm7t6bCzlln++tJiwWW83yhvN51/UFDeuPX4uB8gCpljQwZRAudb4ixeq82pdcUJFgxwxpHbSSkxSw==}
 
+  '@foxogram/api-types@0.1.15':
+    resolution: {integrity: sha512-fchiGwvk/RKgwzFJpqogSvMkVSfvUd4IB8xdxY07f9GHVTv5F+WgFh2ElvKDXP+ONhhKN9aFdq3sF4tlYV6Jow==}
+
   '@foxogram/api@0.1.12':
     resolution: {integrity: sha512-+h8eyOJaE/NuKLFdgNjkOxlIKNeJChgGbcbQoHryI0L+Eg8zgyXFGciBFX/I1RrZJ425M611/FoXydg71yPkpw==}
+
+  '@foxogram/api@0.1.13':
+    resolution: {integrity: sha512-whm91DVBiEW/tqcIDi5RQBHuIJ5kW2BK32p1L/ceLtPE1fn5ceeQkgEbpD7G2MTftnyUVtekS7cSWvfVwD+LoA==}
 
   '@foxogram/gateway-types@0.1.4':
     resolution: {integrity: sha512-FJFoWOhOriBrePil931q8xuupGeuxVKZK2xyjltINEEOTiHWhLn2Vo4Lq50eQEE54Iu/uczuUKKSQ/nDIAd4TQ==}
 
-  '@foxogram/gateway@0.1.5':
-    resolution: {integrity: sha512-r0bmfMiJkKhQBY5/5750uhFaOMMtib85tXUQx2sJIqStTW/ouf/XNulmWig17D8gIbgE51LP6AJd8UkX6kCZfQ==}
+  '@foxogram/gateway@0.1.7':
+    resolution: {integrity: sha512-CaLNEtxD1YDriQeOtGYC3SXwhDUOjBpDOd4ekLV/4Hlh5PZ/M1AmnMlJ1hHjZmyL4R4xXY7jjwyZt8zrseYjEw==}
 
   '@foxogram/rest@0.1.10':
     resolution: {integrity: sha512-r5VV2qPzDKIW+bhdFviX/1cHYC43ac0nKChQqo8ex0DhQPx9y7fJoUG8XuI0xDGQTpJXJekVvPlF53EDOR91Qw==}
+
+  '@foxogram/rest@0.1.11':
+    resolution: {integrity: sha512-jqEcGCucfgYGuMQFL+BLxxV8u8BF+8I3013fSFP3pHaQ9M13lreoP9W3542vuvk3B6O4yEOt6Mv2EORofeCWKg==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -1281,8 +1290,8 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  foxogram.js@0.1.2:
-    resolution: {integrity: sha512-qSjQEUIM1+rZDW0EjOjFdFrh/sGSMW9dtDCbSHV/T4zbuv24dFT9IPzhLVs0xo5pCS+vNuENgAzKySLd370qoA==}
+  foxogram.js@0.1.3:
+    resolution: {integrity: sha512-lw7ZYiiDJ5TRm5IlxHLCD/nqKobVpaddz4WvV3vupLuHvzOvmm+xHADXW0WR9HnzhMbkrYh7Fgpqmz2EEcBKaA==}
 
   foxomoji@1.0.1:
     resolution: {integrity: sha512-0lefKi7pKFD+rjbzeajT2qDV8Lm7763laT02uuKqLUqjluKi8e6t7qCC5P3pcizYQKIhs/j3ERaL3fy7rjio/g==}
@@ -1412,9 +1421,6 @@ packages:
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
-
-  import2@1.0.3:
-    resolution: {integrity: sha512-X7KHNp1fovFaiah9Q+njdxXJKIV9/XippWGZwHL9ZdJYnQPBs+4wLd4PuCigbxz2IWNm5YvFycSjRA/1lgmdGw==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -2303,9 +2309,6 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tstl@2.5.16:
-    resolution: {integrity: sha512-+O2ybLVLKcBwKm4HymCEwZIT0PpwS3gCYnxfSDEjJEKADvIFruaQjd3m7CAKNU1c7N3X3WjVz87re7TA2A5FUw==}
-
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
@@ -2441,9 +2444,6 @@ packages:
       yaml:
         optional: true
 
-  websocket-polyfill@1.0.0:
-    resolution: {integrity: sha512-QwfEy8jcOOCVO9su9UP+msEmhZa4a9WSJfePIdCT8GxwVl2Z9toM7nCqFfDDxA/sRmxgf1KNiwL6PXvjJ9qRxw==}
-
   which-boxed-primitive@1.1.1:
     resolution: {integrity: sha512-TbX3mj8n0odCBFVlY8AxkqcHASw3L60jIuF8jFP78az3C2YhmGvqbHBpAjTRH2/xqYunrJ9g1jSyjCjpoWzIAA==}
     engines: {node: '>= 0.4'}
@@ -2471,18 +2471,6 @@ packages:
 
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
-
-  ws@8.18.2:
-    resolution: {integrity: sha512-DMricUmwGZUVr++AEAe2uiVM7UoO9MAVZMDu05UQOaUII0lp+zOzLLU4Xqh/JvTqklB1T4uELaaPBKyjE1r4fQ==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
 
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
@@ -2626,28 +2614,38 @@ snapshots:
 
   '@foxogram/api-types@0.1.14': {}
 
+  '@foxogram/api-types@0.1.15': {}
+
   '@foxogram/api@0.1.12':
     dependencies:
       '@foxogram/api-types': 0.1.14
       '@foxogram/rest': 0.1.10
 
+  '@foxogram/api@0.1.13':
+    dependencies:
+      '@foxogram/api-types': 0.1.15
+      '@foxogram/rest': 0.1.11
+      '@swc/helpers': 0.5.17
+
   '@foxogram/gateway-types@0.1.4':
     dependencies:
       '@foxogram/api-types': 0.1.14
 
-  '@foxogram/gateway@0.1.5':
+  '@foxogram/gateway@0.1.7':
     dependencies:
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
       '@foxogram/gateway-types': 0.1.4
+      '@swc/helpers': 0.5.17
       eventemitter3: 5.0.1
-      websocket-polyfill: 1.0.0
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
 
   '@foxogram/rest@0.1.10':
     dependencies:
       '@foxogram/api-types': 0.1.14
+
+  '@foxogram/rest@0.1.11':
+    dependencies:
+      '@foxogram/api-types': 0.1.15
+      '@swc/helpers': 0.5.17
 
   '@humanfs/core@0.19.1': {}
 
@@ -3734,17 +3732,15 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  foxogram.js@0.1.2:
+  foxogram.js@0.1.3:
     dependencies:
-      '@foxogram/api': 0.1.12
-      '@foxogram/api-types': 0.1.14
-      '@foxogram/gateway': 0.1.5
+      '@foxogram/api': 0.1.13
+      '@foxogram/api-types': 0.1.15
+      '@foxogram/gateway': 0.1.7
       '@foxogram/gateway-types': 0.1.4
-      '@foxogram/rest': 0.1.10
+      '@foxogram/rest': 0.1.11
+      '@swc/helpers': 0.5.17
       eventemitter3: 5.0.1
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
 
   foxomoji@1.0.1(@types/node@22.15.17)(eslint@9.26.0(jiti@2.4.2))(jiti@2.4.2)(sass-embedded@1.87.0)(sass@1.87.0)(typescript@5.8.3):
     dependencies:
@@ -3913,8 +3909,6 @@ snapshots:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
-
-  import2@1.0.3: {}
 
   imurmurhash@0.1.4: {}
 
@@ -4988,8 +4982,6 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tstl@2.5.16: {}
-
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
@@ -5137,15 +5129,6 @@ snapshots:
       sass: 1.87.0
       sass-embedded: 1.87.0
 
-  websocket-polyfill@1.0.0:
-    dependencies:
-      import2: 1.0.3
-      tstl: 2.5.16
-      ws: 8.18.2
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-
   which-boxed-primitive@1.1.1:
     dependencies:
       is-bigint: 1.1.0
@@ -5194,8 +5177,6 @@ snapshots:
   word-wrap@1.2.5: {}
 
   wrappy@1.0.2: {}
-
-  ws@8.18.2: {}
 
   yocto-queue@0.1.0: {}
 

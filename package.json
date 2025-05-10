@@ -18,7 +18,7 @@
 		"@foxogram/rest": "^0.1.10",
 		"@tauri-apps/plugin-updater": "^2.7.1",
 		"dayjs": "^1.11.13",
-		"foxogram.js": "^0.1.2",
+		"foxogram.js": "^0.1.3",
 		"foxomoji": "^1.0.1",
 		"mobx": "^6.13.7",
 		"mobx-react": "^9.2.0",
