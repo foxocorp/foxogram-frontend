@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@fontsource/inter": "^5.2.5",
 		"@foxogram/api": "^0.1.12",
-		"@foxogram/api-types": "^0.1.14",
+		"@foxogram/api-types": "^0.1.15",
 		"@foxogram/gateway-types": "^0.1.4",
 		"@foxogram/rest": "^0.1.10",
 		"@tauri-apps/plugin-updater": "^2.7.1",

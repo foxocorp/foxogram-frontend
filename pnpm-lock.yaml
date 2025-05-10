@@ -15,8 +15,8 @@ importers:
         specifier: ^0.1.12
         version: 0.1.12
       '@foxogram/api-types':
-        specifier: ^0.1.14
-        version: 0.1.14
+        specifier: ^0.1.15
+        version: 0.1.15
       '@foxogram/gateway-types':
         specifier: ^0.1.4
         version: 0.1.4
@@ -302,8 +302,8 @@ packages:
   '@fontsource/inter@5.2.5':
     resolution: {integrity: sha512-kbsPKj0S4p44JdYRFiW78Td8Ge2sBVxi/PIBwmih+RpSXUdvS9nbs1HIiuUSPtRMi14CqLEZ/fbk7dj7vni1Sg==}
 
-  '@foxogram/api-types@0.1.14':
-    resolution: {integrity: sha512-GAW6QlC0dm7t6bCzlln++tJiwWW83yhvN51/UFDeuPX4uB8gCpljQwZRAudb4ixeq82pdcUJFgxwxpHbSSkxSw==}
+  '@foxogram/api-types@0.1.15':
+    resolution: {integrity: sha512-fchiGwvk/RKgwzFJpqogSvMkVSfvUd4IB8xdxY07f9GHVTv5F+WgFh2ElvKDXP+ONhhKN9aFdq3sF4tlYV6Jow==}
 
   '@foxogram/api@0.1.12':
     resolution: {integrity: sha512-+h8eyOJaE/NuKLFdgNjkOxlIKNeJChgGbcbQoHryI0L+Eg8zgyXFGciBFX/I1RrZJ425M611/FoXydg71yPkpw==}
@@ -2624,20 +2624,20 @@ snapshots:
 
   '@fontsource/inter@5.2.5': {}
 
-  '@foxogram/api-types@0.1.14': {}
+  '@foxogram/api-types@0.1.15': {}
 
   '@foxogram/api@0.1.12':
     dependencies:
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
       '@foxogram/rest': 0.1.10
 
   '@foxogram/gateway-types@0.1.4':
     dependencies:
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
 
   '@foxogram/gateway@0.1.5':
     dependencies:
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
       '@foxogram/gateway-types': 0.1.4
       eventemitter3: 5.0.1
       websocket-polyfill: 1.0.0
@@ -2647,7 +2647,7 @@ snapshots:
 
   '@foxogram/rest@0.1.10':
     dependencies:
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
 
   '@humanfs/core@0.19.1': {}
 
@@ -3737,7 +3737,7 @@ snapshots:
   foxogram.js@0.1.2:
     dependencies:
       '@foxogram/api': 0.1.12
-      '@foxogram/api-types': 0.1.14
+      '@foxogram/api-types': 0.1.15
       '@foxogram/gateway': 0.1.5
       '@foxogram/gateway-types': 0.1.4
       '@foxogram/rest': 0.1.10
